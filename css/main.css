@@ -61,12 +61,15 @@ main {
         left: auto;
         right: auto;
         margin-bottom: 20px; /* Add margin to separate from text */
+        max-width: 40%; /* Adjust width of gifs */
     }
     .gif-left {
-        left: 0;
+        float: left;
+        margin-right: 10px;
     }
     .gif-right {
-        right: 0;
+        float: right;
+        margin-left: 10px;
     }
 }
 
