@@ -52,6 +52,24 @@ main {
     height: auto;
 }
 
+/* New CSS for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    .gif-left,
+    .gif-right {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        margin-bottom: 20px; /* Add margin to separate from text */
+    }
+    .gif-left {
+        left: 0;
+    }
+    .gif-right {
+        right: 0;
+    }
+}
+
 .love-note p {
     margin-bottom: 15px;
 }
