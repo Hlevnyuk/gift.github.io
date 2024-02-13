@@ -52,27 +52,6 @@ main {
     height: auto;
 }
 
-/* New CSS for mobile responsiveness */
-@media only screen and (max-width: 600px) {
-    .gif-left,
-    .gif-right {
-        position: relative;
-        top: auto;
-        left: auto;
-        right: auto;
-        margin-bottom: 20px; /* Add margin to separate from text */
-        max-width: 40%; /* Adjust width of gifs */
-    }
-    .gif-left {
-        float: left;
-        margin-right: 10px;
-    }
-    .gif-right {
-        float: right;
-        margin-left: 10px;
-    }
-}
-
 .love-note p {
     margin-bottom: 15px;
 }
